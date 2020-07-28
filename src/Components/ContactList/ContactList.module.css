@@ -1,0 +1,55 @@
+.block {
+  display: block;
+  width: 340px;
+  padding: 0px;
+}
+
+.form {
+  padding: 20px;
+}
+.label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.input {
+  display: block;
+}
+.button {
+  border-radius: 5px;
+  border: none;
+  background-color: #ff9900;
+  border: 1px solid #ff6600;
+  padding: 4px;
+  width: 74px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6600;
+  color: #ff6600;
+}
+
+.ulBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 14px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+.li {
+  margin-right: 14px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.span {
+  margin-right: 20px;
+}
